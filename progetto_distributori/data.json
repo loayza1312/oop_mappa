@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "provincia": "Milano",
+    "citta": "Milano",
+    "benzina": 5000.0,
+    "diesel": 3000.0,
+    "prezzo_benzina": 1.8,
+    "prezzo_diesel": 1.67,
+    "lat": 45.4642,
+    "lon": 9.19
+  },
+  {
+    "id": 2,
+    "provincia": "Roma",
+    "citta": "Roma",
+    "benzina": 4000.0,
+    "diesel": 2500.0,
+    "prezzo_benzina": 1.83,
+    "prezzo_diesel": 1.7,
+    "lat": 41.9028,
+    "lon": 12.4964
+  },
+  {
+    "id": 3,
+    "provincia": "Napoli",
+    "citta": "Napoli",
+    "benzina": 3500.0,
+    "diesel": 2000.0,
+    "prezzo_benzina": 1.8,
+    "prezzo_diesel": 1.68,
+    "lat": 40.8522,
+    "lon": 14.2681
+  },
+  {
+    "id": 4,
+    "provincia": "Torino",
+    "citta": "Torino",
+    "benzina": 4500.0,
+    "diesel": 2800.0,
+    "prezzo_benzina": 1.82,
+    "prezzo_diesel": 1.72,
+    "lat": 45.0703,
+    "lon": 7.6869
+  },
+  {
+    "id": 5,
+    "provincia": "Palermo",
+    "citta": "Palermo",
+    "benzina": 3000.0,
+    "diesel": 1500.0,
+    "prezzo_benzina": 1.78,
+    "prezzo_diesel": 1.65,
+    "lat": 38.1157,
+    "lon": 13.3615
+  },
+  {
+    "id": 6,
+    "provincia": "Bologna",
+    "citta": "Bologna",
+    "benzina": 8000.0,
+    "diesel": 8000.0,
+    "prezzo_benzina": 1.65,
+    "prezzo_diesel": 1.72,
+    "lat": 44.2938,
+    "lon": 11.2034
+  }
+]

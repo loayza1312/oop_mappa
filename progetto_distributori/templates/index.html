@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Mappa Distributori Iperstaroil</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #map { height: 500px; width: 100%; margin-bottom: 20px; }
+        input, button { margin: 5px 0; padding: 5px; }
+        h2 { margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>Mappa Distributori Iperstaroil</h1>
+
+    <!-- Barra di ricerca -->
+    <input type="text" id="searchInput" placeholder="Cerca per ID o città">
+    <button onclick="searchDistributor()">Cerca</button>
+    <button onclick="loadDistributors()">Mostra tutti</button>
+
+    <!-- Mappa -->
+    <div id="map"></div>
+
+    <!-- Form aggiunta distributore -->
+    <h2>Aggiungi nuovo distributore</h2>
+    <div>
+        ID: <input type="number" id="add_id"><br>
+        Provincia: <input type="text" id="add_provincia"><br>
+        Città: <input type="text" id="add_citta"><br>
+        Benzina: <input type="number" id="add_benzina"><br>
+        Diesel: <input type="number" id="add_diesel"><br>
+        Prezzo Benzina: <input type="number" step="0.01" id="add_prezzo_benzina"><br>
+        Prezzo Diesel: <input type="number" step="0.01" id="add_prezzo_diesel"><br>
+        Latitudine: <input type="number" step="0.0001" id="add_lat"><br>
+        Longitudine: <input type="number" step="0.0001" id="add_lon"><br>
+        <button onclick="addDistributor()">Aggiungi distributore</button>
+    </div>
+
+    <h2>Aggiorna prezzi carburante per provincia</h2>
+    <div>
+        Provincia: <input type="text" id="provincia_prezzi"><br>
+        Nuovo prezzo Benzina: <input type="number" step="0.01" id="prezzo_benzina_prov"><br>
+        Nuovo prezzo Diesel: <input type="number" step="0.01" id="prezzo_diesel_prov"><br>
+    <button onclick="updatePrezziProvincia()">Aggiorna prezzi</button>
+    </div>
+
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
